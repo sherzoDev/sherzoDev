@@ -740,20 +740,25 @@ img {
     }
 
     &__css {
-        width: 85%;
+        width: 90%;
     }
 
     &__js {
-        width: 65%;
+        width: 90%;
     }
 
     &__ux {
-        width: 85%;
+        width: 90%;
+    }
+    
+    &__javascript {
+        width: 70%;
     }
 
     &__img {
         border-radius: .5rem;
     }
+
 }
 
 /* ===== WORK =====*/
@@ -811,6 +816,14 @@ img {
     &__title {
         font-size: 2rem;
         margin-bottom: var(--mb-4);
+        margin: 0 auto;
+    }
+
+    .footer-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
     }
 
     &__social {
